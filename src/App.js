@@ -153,15 +153,6 @@ const App = () => {
             setAddApi(response?.data?.slice(0, 5))
         })
     }
-    //console.log("addApi",addApi);
-
-
-    // const complaintDepartmentName = (e) => {
-    //     setDepartmentName({
-    //         ...departmentName,
-    //         [e.target.name]: e.target.value
-    //     });
-
    
     return (
         <div>
