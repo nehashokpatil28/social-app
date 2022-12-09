@@ -1,0 +1,23 @@
+.ComplaintTracker {
+  margin-top: 10px;
+    width : 100%;
+    /* height : 100vh; */
+    display : flex;
+    justify-content : center;
+    text-align: center
+}
+
+table {
+    border : 2px solid rgb(196, 208, 196);
+    width : 100%;
+    height : auto
+  }
+  
+th {
+    border-bottom : 1px solid rgb(99, 96, 96)
+  }
+
+td {
+    text-align : center
+  }
+
