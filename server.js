@@ -72,8 +72,6 @@ app.get('/getComaplints', (req, res) => {
   })
 })
 
-app.get("/getAdminType")
-
 app.post('/complaintDetails', (req, res) => {
 
   const { image, lat, lon, complaintType, description, city, district, postalCode, state } = req?.body
